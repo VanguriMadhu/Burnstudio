@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../css/fonts/Helvetica-Bold.woff2') format('woff2'),
+        url('../css/fonts/Helvetica-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueLT Com 55 Roman';
+    src: url('../css/fonts/roman/HelveticaNeueLTCom-Roman.woff2') format('woff2'),
+        url('HelveticaNeueLTCom-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body{
+}
+
+.fix::after{
+content:"";
+display: block;
+clear: both;
+}
+
+.container{
+width: 962px;
+margin: 0 auto;
+}
+
+header {
+padding: 50px 0px;
+font-family: 'Helvetica';
+}
+
+.logo{
+float: left;
+}
+
+nav {
+float: right;
+
+}
+
+nav ul li{
+list-style-type: none;
+display: inline-block;
+}
+
+nav ul li a{
+text-decoration: none;
+font-family: 'Helvetica';
+}
+
+nav ul li a:hover{
+color: red;
+}
+
+nav ul span{
+margin: 0 15px;
+}
+
+.last{
+margin-right: 0px; /* This is used for CONTACT margin-right 0 in nav*/
+}
+
+.active {
+color: #b0b0b0; /* This used for PORTFOLIO color change in nav */
+
+}
+
+.banner{
+text-align: center;
+}
+
+.banner h1 {
+padding: 97px 0px 46px 0px;
+font-family: 'Helvetica';
+}
+
+.banner a {
+background-color: #222222;
+color: #ffffff;
+border-radius: 5px;
+text-decoration: none;
+line-height: 2;
+padding: 16px 40px;
+display: inline-block;
+margin: 48px 0px 101px 0px;
+}
+
+.banner a:hover{
+background-color: green;
+}
+
+h2 {
+padding: 58px 0px 44px 0px;
+font-family: 'Helvetica';
+}
+
+.project-done aside{
+width: 286px;
+height: 200px;
+background-color: #cccccc;
+}
+
+.project-done {
+border: 2px solid #cccccc;
+float: left;
+width: 30%;
+margin-right: 32px;
+text-align: center;
+margin-bottom: 100px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+
+.project-done h3{
+padding: 21px 0px 15px 0px;
+}
+
+.project-done p{
+padding: 0px 0px 17px 0px;
+font-family: 'HelveticaNeueLT Com 55 Roman';
+}
+
